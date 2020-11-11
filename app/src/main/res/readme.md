@@ -1,0 +1,1 @@
+This is simple crud demo using couchbase lite 1.4
