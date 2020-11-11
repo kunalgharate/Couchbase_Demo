@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="52px"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="15px"
+        android:background="#efefeb"
+        android:src="@drawable/checkbox_uncheck">
+
+    </ImageView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginRight="0px"
+        android:background="@drawable/itemrightbackground">
+
+        <TextView
+            android:id="@+id/label"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10px"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:text="@+id/TextView01"
+            android:textColor="#808080"
+            android:textSize="40px"></TextView>
+    </LinearLayout>
+
+</LinearLayout>
